@@ -1,6 +1,7 @@
 #pragma one
 #include <iostream>
 #include <fstream>
+#include <cstring>
 #include <cmath>
 #include <time.h>
 using namespace std;
