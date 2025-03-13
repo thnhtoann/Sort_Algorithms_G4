@@ -2,6 +2,7 @@
 #include <iostream>
 #include <fstream>
 #include <cstring>
+#include <unistd.h>
 #include <cmath>
 #include <time.h>
 using namespace std;
