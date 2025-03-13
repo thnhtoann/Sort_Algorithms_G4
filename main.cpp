@@ -1,6 +1,7 @@
 #include "DataGenerator.h"
 #include <getopt.h>
-
+#include <iostream>
+#include <cstring>
 using namespace std;
 
 // Prototype 1: [Execution file] -a [Algorithm] [Given input] [Output parameter(s)]
@@ -35,7 +36,7 @@ int main(int argc, char *argv[]) {
     const char* short_options = "a:c:";
 
     // Parse the options
-    while ((opt = getopt_long(argc, argv, short_options, long_options, NULL)) != -1) {
+    while ((opt = getopt_long_only(argc, argv, short_options, long_options, NULL)) != -1) {
         switch (opt) {
             case 'a':
                 mode = "a";
