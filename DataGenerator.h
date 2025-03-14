@@ -2,9 +2,15 @@
 #include <iostream>
 #include <fstream>
 #include <cstring>
+#include <iomanip>
+#include <ctime>
 #include <unistd.h>
 #include <cmath>
 #include <time.h>
+#include <getopt.h>
+#include <unordered_map>
+#include <string>
+
 using namespace std;
 
 template <class T>
